@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Quiz</title>
+    <link rel="stylesheet" href="Love_Note.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Answer these questions to unlock a special message!(Type out either of the options shown) </h1>
+        <form id="quizForm">
+            <label for="question1">Do you love me? (Yes, I do Rey/ I don't know) </label><br>
+            <input type="text" id="question1" name="question1"><br><br>
+
+            <label for="question2">Are you tired of me Loving you? (Of course not, my love/ To be honest, Yes)</label><br>
+            <input type="text" id="question2" name="question2"><br><br>
+
+            <label for="question3">You Know i can't live properly without you right? (Yes I do babe/ That's not true)</label><br>
+            <input type="text" id="question3" name="question3"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div id="loveNote" class="hidden">
+            <h2>A Special Message for You!</h2>
+            <p id="noteContent"></p>
+        </div>
+    </div>
+
+    <script src="Love_note.js"></script>
+</body>
+</html>
